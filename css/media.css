@@ -1,3 +1,28 @@
+@media screen and (min-width: 1600px) {
+
+    .about-content {
+        position: relative;
+    }
+
+    .about-content_right {
+        right: -170px;
+        top: -40px;
+    }
+
+    .career-content {
+        position: relative;
+    }
+
+    .career-content_left {
+        left: -150px;
+    }
+
+    .career-content_right {
+        right: -150px;
+        top: -70px;
+    }
+}
+
 @media screen and (max-width: 1500px) {
     .career-content_left {
         left: 0%;
