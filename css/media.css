@@ -498,6 +498,15 @@
         .typo-content_right {
             display: none;
         }
+
+        .arcticmodal-container_i {
+            width: 100%;
+            margin: 0;
+        }
+
+        .box-modal {
+            width: 100%;
+        }
 }
 
 @media screen and (max-width: 600px) {
