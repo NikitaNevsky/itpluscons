@@ -120,6 +120,10 @@
     .services-item_right {
         overflow: hidden;
     }
+
+    .typo-content_right {
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 930px) {
@@ -485,6 +489,14 @@
 
         .customers-item img {
             max-width: 100%;
+        }
+
+        .typo {
+            padding-top: 40px;
+        }
+
+        .typo-content_right {
+            display: none;
         }
 }
 

@@ -511,6 +511,8 @@ input:focus {
 
 .more:hover {
     background: #15597a;
+    color: #fff;
+    text-decoration: none;
 }
 
 .about-content {
@@ -939,4 +941,118 @@ input:focus {
 
 .form button:hover {
     background: #15597a;
+}
+
+/*-------------- Typo ---------------*/
+
+.typo {
+    padding-top: 75px;
+}
+
+.typo-text_bold {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.typo-text_italic {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.typo-text_underline {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.typo-text_through {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: normal;
+    text-decoration: line-through;
+    margin-bottom: 20px;
+}
+
+.typo-content_list {
+    margin-bottom: 30px;
+}
+
+.typo-content_item {
+    position: relative;
+    padding-left: 15px;
+}
+
+.typo-content_item:before {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #0C384E;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.typo-num_list {
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+.typo-content_img {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.typo-content_img img {
+    width: 100%;
+}
+
+.typo-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.typo-content_right {
+    width: 160px;
+}
+
+.menu-right_item a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    position: relative;
+}
+
+.menu-right_item {
+    margin-bottom: 10px;
+}
+
+.menu-right_item a:before {
+    content: '';
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #333333;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.menu-right_item a:hover:before {
+    transform: scale(1);
 }
